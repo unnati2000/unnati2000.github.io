@@ -31,6 +31,7 @@ body {
 }
 
 .header_btn {
+  text-decoration: none;
   color: rgb(112, 108, 97);
   margin-top: 40px;
   padding: 20px 60px;
