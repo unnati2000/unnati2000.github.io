@@ -1,0 +1,340 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Raleway:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Montserrat:wght@500&family=Roboto:wght@400&family=Mulish:wght@500&family=Poppins&display=swap');
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
+/* ###################3 header ##########################################33 */
+.header {
+  background: linear-gradient(
+      to right,
+      rgba(1, 1, 1, 0.79),
+      rgba(21, 31, 36, 0.79)
+    ),
+    url('./unnatis.jpeg');
+  background-size: cover;
+  height: 150vh;
+  padding: 170px;
+}
+
+.header_content {
+  font-size: 50px;
+  color: #929aab;
+}
+
+.header_btn {
+  color: rgb(112, 108, 97);
+  margin-top: 40px;
+  padding: 20px 60px;
+  border-radius: 30px;
+  border: none;
+  font-size: 20px;
+  background: #ffffff;
+  font-weight: bold;
+  color: black;
+  box-shadow: 0 28px 30px rgba(112, 108, 97, 0.6),
+    0px 10px 10px rgba(112, 108, 97, 0.7);
+  transition: all 0.3s;
+}
+.header_btn:hover {
+  cursor: pointer;
+  background: #ffffff;
+  transform: scale(1.1);
+  animation: 0.5s ease-out;
+}
+
+.about_section {
+  padding-top: 170px;
+  text-align: center;
+}
+
+.about_content {
+  padding: 40px 30px;
+}
+.about_content h3 {
+  font-size: 50px;
+  padding: 20px 0;
+  color: white;
+}
+
+.about_content p {
+  font-size: 20px;
+  color: #929aab;
+  font-weight: bold;
+}
+
+@media (max-width: 900px) {
+  .header {
+    background: linear-gradient(
+        to right,
+        rgba(1, 1, 1, 0.79),
+        rgba(21, 31, 36, 0.79)
+      ),
+      url('./unnatis.jpeg');
+    background-size: cover;
+    height: 150vh;
+    padding: 130px;
+  }
+
+  .header_content {
+    font-size: 30px;
+    color: #929aab;
+  }
+}
+
+@media (max-width: 700px) {
+  .header {
+    background: linear-gradient(
+        to right,
+        rgba(1, 1, 1, 0.79),
+        rgba(21, 31, 36, 0.79)
+      ),
+      url('./unnatis.jpeg');
+    background-size: cover;
+    height: 150vh;
+    padding: 90px;
+  }
+
+  .header_content {
+    font-size: 30px;
+    color: #929aab;
+  }
+  .about_section {
+    padding-top: 100px;
+    text-align: center;
+  }
+  .about_content h3 {
+    font-size: 30px;
+    color: white;
+  }
+  .about_content {
+    padding: 10px;
+  }
+  .about_content p {
+    font-size: 17px;
+    color: #929aab;
+    font-weight: bold;
+  }
+}
+
+@media (max-width: 500px) {
+  .about_section {
+    padding-top: 40px;
+    text-align: center;
+  }
+}
+
+/* ######################### skill set ##################################### */
+.skills {
+  background: #1d2323;
+  text-align: center;
+}
+
+.skills h1 {
+  font-size: 40px;
+  padding: 30px 0;
+  color: #929aab;
+}
+.skillset {
+  background: #1d2323;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 70px;
+  text-align: center;
+  padding: 20px 80px;
+}
+
+.skill_name {
+  padding: 20px 30px;
+  border-radius: 10px;
+  box-shadow: -5px -5px 10px rgba(225, 225, 225, 0.05),
+    5px 5px 15px rgba(0, 0, 0, 0.5);
+  transition: all 0.3s;
+}
+.skill_name:hover {
+  box-shadow: inset -2px -2px 6px rgba(225, 225, 225, 0.1),
+    inset 2px 2px 6px rgba(0, 0, 0, 0.8);
+}
+
+.skill_name i {
+  font-size: 60px;
+  color: #929aab;
+}
+/* better nice */
+.skill_name h2 {
+  margin-top: 20px;
+  color: #474a56;
+}
+.skill_name h3 {
+  padding: 10px 0;
+  color: #50595c;
+}
+
+@media (max-width: 700px) {
+  .skillset {
+    background: #1d2323;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    text-align: center;
+    padding: 20px 30px;
+  }
+}
+
+@media (max-width: 500px) {
+  .skillset {
+    background: #1d2323;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+
+    text-align: center;
+    padding: 20px 30px;
+  }
+}
+
+/* ################################ projects #################################3 */
+
+.project_section {
+  background: #1d2323;
+}
+
+.project {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 30px;
+  padding: 30px 50px;
+}
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 20px 0;
+  grid-gap: 100px;
+  font-weight: bold;
+}
+.project_section h1 {
+  font-size: 40px;
+  padding: 30px 0;
+  color: #929aab;
+  text-align: center;
+}
+.project_content h2 {
+  font-size: 35px;
+  color: #63686e;
+}
+
+.project h2 {
+  padding: 20px 0;
+}
+
+.project p {
+  font-size: 20px;
+  color: #929aab;
+  font-weight: bold;
+}
+
+.project_images img {
+  height: 300px;
+  width: 700px;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.7);
+}
+
+.project_btn {
+  color: #50595c;
+  text-decoration: none;
+  font-size: 20px;
+  box-shadow: -5px -5px 10px rgba(225, 225, 225, 0.05),
+    5px 5px 15px rgba(0, 0, 0, 0.5);
+  padding: 10px 20px;
+  text-align: center;
+  border-radius: 15 px;
+}
+.project_btn:hover {
+  box-shadow: inset -2px -2px 6px rgba(225, 225, 225, 0.1),
+    inset 2px 2px 6px rgba(0, 0, 0, 0.8);
+}
+
+@media (max-width: 900px) {
+  .project_images img {
+    height: 300px;
+    width: 450px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.7);
+  }
+  .project p {
+    font-size: 17px;
+    color: #474a56;
+    font-weight: bold;
+  }
+  .project_content h2 {
+    font-size: 25px;
+    color: #63686e;
+  }
+
+  .project_btn {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 700px) {
+  .project_section {
+    text-align: center;
+  }
+  .project {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+
+    padding: 30px 50px;
+  }
+  .project_images img {
+    height: 300px;
+    width: 350px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.7);
+  }
+  .project p {
+    font-size: 17px;
+    color: #474a56;
+    font-weight: bold;
+  }
+  .project_content h2 {
+    font-size: 25px;
+    color: #63686e;
+  }
+
+  .project_btn {
+    font-size: 15px;
+  }
+}
+
+/* ##################### footer #################################### */
+.icons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  color: wheat;
+  text-align: center;
+}
+
+.icons i {
+  color: #929aab;
+}
+
+.icons i:hover {
+  color: #50595c;
+}
+
+footer {
+  background: black;
+  height: 130px;
+}
+
+blockquote {
+  color: #50595c;
+  padding: 20px 0;
+  text-align: center;
+}
