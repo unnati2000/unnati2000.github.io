@@ -165,9 +165,15 @@ body {
   }
 
   .about_content p {
-    font-size: 15px;
+    font-size: 20px;
     color: #929aab;
     font-weight: bold;
+  }
+}
+
+@media (max-width: 400px) {
+  .header {
+    height: 220vh;
   }
 }
 
