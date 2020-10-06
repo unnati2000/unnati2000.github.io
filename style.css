@@ -33,7 +33,6 @@ body {
 .header_btn {
   text-decoration: none;
   color: rgb(112, 108, 97);
-  margin-top: 40px;
   padding: 20px 60px;
   border-radius: 30px;
   border: none;
@@ -50,6 +49,10 @@ body {
   background: #ffffff;
   transform: scale(1.1);
   animation: 0.5s ease-out;
+}
+
+.header_content h2 {
+  padding-bottom: 50px;
 }
 
 .about_section {
@@ -216,7 +219,7 @@ body {
 /* better nice */
 .skill_name h2 {
   margin-top: 20px;
-  color: #474a56;
+  color: #f7f7f7;
 }
 .skill_name h3 {
   padding: 10px 0;
@@ -272,7 +275,7 @@ body {
 }
 .project_content h2 {
   font-size: 35px;
-  color: #63686e;
+  color: #f7f7f7;
 }
 
 .project h2 {
@@ -292,7 +295,7 @@ body {
 }
 
 .project_btn {
-  color: #50595c;
+  color: #f7f7f7;
   text-decoration: none;
   font-size: 20px;
   box-shadow: -5px -5px 10px rgba(225, 225, 225, 0.05),
@@ -314,12 +317,12 @@ body {
   }
   .project p {
     font-size: 17px;
-    color: #474a56;
+    color: #929aab;
     font-weight: bold;
   }
   .project_content h2 {
     font-size: 25px;
-    color: #63686e;
+    color: #f7f7f7;
   }
 
   .project_btn {
@@ -344,12 +347,12 @@ body {
   }
   .project p {
     font-size: 17px;
-    color: #474a56;
+    color: #929aab;
     font-weight: bold;
   }
   .project_content h2 {
     font-size: 25px;
-    color: #63686e;
+    color: #f7f7f7;
   }
 
   .project_btn {
@@ -373,12 +376,12 @@ body {
   }
   .project p {
     font-size: 17px;
-    color: #474a56;
+    color: #929aab;
     font-weight: bold;
   }
   .project_content h2 {
     font-size: 25px;
-    color: #63686e;
+    color: #f7f7f7;
   }
 
   .project_btn {
