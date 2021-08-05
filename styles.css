@@ -89,7 +89,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-  
   }
 }
 
@@ -119,6 +118,12 @@
     border-bottom: solid 2px #6d6a6a;
     cursor: pointer;
   }
+}
+
+
+@media (max-width: 440x) {
+
+    
 }
 
 /* ########################## About  ############################## */
@@ -509,10 +514,7 @@
 
 @media (max-width: 700px){
     .contact-div{
-      background: url('./assets/Contact\ Me.png');
-      background-repeat: no-repeat;
-      background-size: cover;
-      width: 100%;
+      background: #282828;    
       height: 100vh;
     }
     .contact-div-header {
@@ -522,21 +524,28 @@
     }
     .contact-div input,
     .contact-div textarea {
-      padding: 10px;
-      width: 70%;
+      padding: 20px;
+      width: 80%;
       border: none;
       border-bottom: 1px solid #6d6d6d;
-      font-size: 17px;
+      font-size: 20px;
       margin: 10px 0;
       color: #7d7a7a;
       font-family: 'Roboto', sans-serif;
-  } 
-  .submit {
-    padding: 12px 50px;
-    width: 30%;
-    margin-top: 20px;
-    font-size: 17px;     
-  }
+    } 
+    .submit {
+      padding: 12px 50px;
+      width: 30%;
+      margin-top: 20px;
+      font-size: 17px; 
+      text-align: center;    
+    }
+    @media (max-width:500px) {
+
+      .submit{
+        padding: 12px 30px
+      }
+    };
 }
 
 
